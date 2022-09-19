@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Link from 'next/link';
 import ShopLayout from '../components/layout/ShopLayout';
 
 const Home: NextPage = () => {
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
                     <div>
                         <h1 className="text-white text-4xl leading-normal md:text-5xl xl:text-6xl font-bold font-nunito">Una nueva forma de identificarte con tu mascota.</h1>
                         <p className="text-white font-nunito text-xl md:text-2xl leading-snug mt-4">Conoce los beneficios que trae tu nueva placa QR.</p>
-                        {/* <a href="#" className="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Book Appointment</a> */}
+                        {/* <Link href="/" className="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Book Appointment</Link> */}
                     </div>
                 </div>
             </section>
@@ -68,7 +69,7 @@ const Home: NextPage = () => {
 
                 <h4 className="text-xl font-bold mt-4">Teeth Whitening</h4>
                 <p className="mt-1">Let us show you how our experience.</p>
-                <a href="#" className="block mt-4">Read More</a>
+                <Link href="/" className="block mt-4">Read More</Link>
               </div>
             </div>
 
@@ -78,7 +79,7 @@ const Home: NextPage = () => {
 
                 <h4 className="text-xl font-bold mt-4">Oral Surgery</h4>
                 <p className="mt-1">Let us show you how our experience.</p>
-                <a href="#" className="block mt-4">Read More</a>
+                <Link href="/" className="block mt-4">Read More</Link>
               </div>
             </div>
 
@@ -88,7 +89,7 @@ const Home: NextPage = () => {
 
                 <h4 className="text-xl font-bold mt-4">Painless Dentistry</h4>
                 <p className="mt-1">Let us show you how our experience.</p>
-                <a href="#" className="block mt-4">Read More</a>
+                <Link href="/" className="block mt-4">Read More</Link>
               </div>
             </div>
 
@@ -98,7 +99,7 @@ const Home: NextPage = () => {
 
                 <h4 className="text-xl font-bold mt-4">Periodontics</h4>
                 <p className="mt-1">Let us show you how our experience.</p>
-                <a href="#" className="block mt-4">Read More</a>
+                <Link href="/" className="block mt-4">Read More</Link>
               </div>
             </div>
           </div>
@@ -133,7 +134,7 @@ const Home: NextPage = () => {
             <p className="text-gray-600 mt-2 md:max-w-lg">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
               turpis egestas.</p>
 
-            <a href="#" title="" className="inline-block text-teal-500 font-semibold mt-6 mt:md-0">View All Posts</a>
+            <Link href="/" title="" className="inline-block text-teal-500 font-semibold mt-6 mt:md-0">View All Posts</Link>
           </div>
 
           <div className="md:flex mt-12 md:-mx-4">
